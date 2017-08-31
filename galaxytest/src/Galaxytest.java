@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 
-public class GalaxyGuide {
+public class Galaxytest {
 
 /**
 * Creating symbol table for parsing roman numeral values to decimal
@@ -187,7 +187,7 @@ System.out.println("I've no idea what you are talking about");
 public static void main(String[] args) {
 // TODO Auto-generated method stub
 
-GalaxyGuide guide = new GalaxyGuide();
+Galaxytest guide = new Galaxytest();
 //initializing symbol table
 guide.insertSymbolValues();
 
@@ -207,7 +207,7 @@ galactic_message[6] = "pish pish iron is 3910 credits";
 galactic_message[7] = "how much is pish tegj glob glob ?";
 galactic_message[8] = "how many credits is glob prok silver ?";
 galactic_message[9] = "how many credits is glob prok iron ?";
-galactic_message[10] = "asd";
+galactic_message[10] = "how much wood could a woodchuck ?";
 
 //iterating over the input messages and passing it to process
 while(galactic_message[j] != null && j < galactic_message.length){
@@ -232,3 +232,4 @@ guide.processMessage(input_message, words);
 }
 
 }
+
